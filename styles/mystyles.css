@@ -1,0 +1,66 @@
+ /* Index, About Me, and Resume overwrite at least 4 style attributes*/
+p{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 20;
+}
+
+h2{
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color:rgb(108, 169, 172);
+   font-weight: 900;
+}
+
+h3{
+   font-size: x-large;
+}
+
+li{
+   color: rgb(82, 118, 82);
+   font-size: large;
+}
+
+
+
+
+ .textwrap{
+     float:left;
+     margin: 10px;
+
+ }
+
+ .img{
+     float: right;
+ }
+
+ .noitalics{font-style: normal}
+
+ .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height:0;
+ }
+
+ .iframe-container iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    
+ }
+
+ .familyimg{
+   position: relative;
+   width: 100%;
+   height:350;  
+ }
+
+ .afooter{
+   text-decoration: underline;
+   color: black;
+}
+
+
+
+
